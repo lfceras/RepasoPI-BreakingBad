@@ -1,0 +1,18 @@
+.numeros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.unique{
+  border-radius: 34%;
+  border: solid 2px black;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: azure;
+  cursor: pointer;
+}

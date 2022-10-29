@@ -1,0 +1,33 @@
+.searchPrincipal {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.searchPrincipal input{
+  width: 370px;
+  font-size: 25px;
+  margin-right: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+  outline: none;
+}
+
+.searchPrincipal button{
+  width: 190px;
+  font-size: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 8px;
+}
+
+
+.searchPrincipal button:hover{
+  background: transparent;
+  border: 2px solid #799be6;
+  box-shadow: 0 0 10px 0 #799be6 inset,
+              0 0 10px 4px #799be6;
+  border-radius: 10px;
+}
